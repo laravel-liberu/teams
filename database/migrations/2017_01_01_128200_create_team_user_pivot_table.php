@@ -9,9 +9,9 @@ class CreateTeamUserPivotTable extends Migration
     public function up()
     {
         Schema::create('team_user', function (Blueprint $table) {
-            $table->foreignId('team_id')->constrained()->index()->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('team_id')->constrained()->index()->name('team_user_team_id_foreign')->onUpdate('cascade')->onDelete('cascade');
 
-            $table->foreignId('user_id')->constrained()->index()->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('user_id')->constrained()->index()->name('team_user_user_id_foreign')->onUpdate('cascade')->onDelete('cascade');
 
             $table->primary(['user_id', 'team_id']);
 
