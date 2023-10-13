@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Teams\DynamicRelations;
+namespace LaravelLiberu\Teams\DynamicRelations;
 
 use Closure;
-use LaravelEnso\DynamicMethods\Contracts\Method;
-use LaravelEnso\Teams\Models\Team;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Teams\Models\Team;
 
 class Teams implements Method
 {

@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Teams\Http\Controllers\Destroy;
-use LaravelEnso\Teams\Http\Controllers\Index;
-use LaravelEnso\Teams\Http\Controllers\Options;
-use LaravelEnso\Teams\Http\Controllers\Store;
+use LaravelLiberu\Teams\Http\Controllers\Destroy;
+use LaravelLiberu\Teams\Http\Controllers\Index;
+use LaravelLiberu\Teams\Http\Controllers\Options;
+use LaravelLiberu\Teams\Http\Controllers\Store;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/administration/teams')

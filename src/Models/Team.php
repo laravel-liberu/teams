@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Teams\Models;
+namespace LaravelLiberu\Teams\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\DynamicMethods\Traits\Relations;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\Teams\Exceptions\Team as Exception;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\DynamicMethods\Traits\Relations;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Teams\Exceptions\Team as Exception;
+use LaravelLiberu\Users\Models\User;
 
 class Team extends Model
 {

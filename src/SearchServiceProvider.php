@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Teams;
+namespace LaravelLiberu\Teams;
 
-use LaravelEnso\Searchable\SearchServiceProvider as ServiceProvider;
-use LaravelEnso\Teams\Models\Team;
+use LaravelLiberu\Searchable\SearchServiceProvider as ServiceProvider;
+use LaravelLiberu\Teams\Models\Team;
 
 class SearchServiceProvider extends ServiceProvider
 {

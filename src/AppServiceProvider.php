@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Teams;
+namespace LaravelLiberu\Teams;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Teams\DynamicRelations\Teams;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Teams\DynamicRelations\Teams;
+use LaravelLiberu\Users\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {

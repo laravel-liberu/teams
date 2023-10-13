@@ -26,14 +26,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Teams\\": "src/"
+            "LaravelLiberu\\Teams\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Teams\\AppServiceProvider",
-                "LaravelEnso\\Teams\\SearchServiceProvider"
+                "LaravelLiberu\\Teams\\AppServiceProvider",
+                "LaravelLiberu\\Teams\\SearchServiceProvider"
             ],
             "aliases": {}
         }

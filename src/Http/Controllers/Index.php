@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Teams\Http\Controllers;
+namespace LaravelLiberu\Teams\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Teams\Http\Resources\Team as Resource;
-use LaravelEnso\Teams\Models\Team;
+use LaravelLiberu\Teams\Http\Resources\Team as Resource;
+use LaravelLiberu\Teams\Models\Team;
 
 class Index extends Controller
 {
